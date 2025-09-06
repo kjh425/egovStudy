@@ -86,7 +86,7 @@
         	                <img src="<c:url value='/images/egovframework/example/btn_bg_r.gif'/>" style="margin-left:6px;" alt=""/>
         	            </span>
         	        </li>
-        	        <h1>z흠zzzzzzzzjsp;;</h1>
+        	        <h1>진짜 개판을 치는구나;;</h1>
                 </ul>
         	</div>
         	<!-- List -->
