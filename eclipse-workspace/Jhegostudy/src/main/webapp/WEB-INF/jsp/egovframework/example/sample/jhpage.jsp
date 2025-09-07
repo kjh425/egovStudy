@@ -15,7 +15,6 @@
 		function testFunc(){
 			alert('버튼클릭해봄!');
 		}
-		
 
 	</script>
 </head>
