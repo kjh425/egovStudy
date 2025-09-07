@@ -34,7 +34,12 @@
     <validator:javascript formName="sampleVO" staticJavascript="false" xhtml="true" cdata="false"/>
     
     <script type="text/javaScript" language="javascript" defer="defer">
-        <!--
+    	init();
+    
+    	function init() {
+    		console.log('gdgd init 테스트다;;;');
+    	}
+        
         /* 글 목록 화면 function */
         function fn_egov_selectList() {
            	document.detailForm.action = "<c:url value='/egovSampleList.do'/>";
@@ -58,8 +63,6 @@
                 frm.submit();
             }
         }
-        
-        -->
     </script>
 </head>
 <body style="text-align:center; margin:0 auto; display:inline; padding-top:100px;">
@@ -137,8 +140,8 @@
     			<li>
                     <span class="btn_blue_l">
                         <a href="javascript:fn_egov_save();">
-                            <c:if test="${registerFlag == 'create'}"><spring:message code="button.create" /></c:if>
-                            <c:if test="${registerFlag == 'modify'}"><spring:message code="button.modify" /></c:if>
+                            <c:if test="${registerFlag == 'create'}"><spring:message code="button.create" />응애</c:if>
+                            <c:if test="${registerFlag == 'modify'}"><spring:message code="button.modify" />수정응애</c:if>
                         </a>
                         <img src="<c:url value='/images/egovframework/example/btn_bg_r.gif'/>" style="margin-left:6px;" alt=""/>
                     </span>
