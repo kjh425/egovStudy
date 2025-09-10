@@ -83,7 +83,7 @@ public class EgovSampleController {
 		searchVO.setPageUnit(propertiesService.getInt("pageUnit"));
 		searchVO.setPageSize(propertiesService.getInt("pageSize"));
 
-		System.out.println("깃 테스트");
+		System.out.println("깃 테스트gdgd");
 		log.debug("zzzzzzzzzzz");
 		log.info("zzzzzzzzzzz");
 		
