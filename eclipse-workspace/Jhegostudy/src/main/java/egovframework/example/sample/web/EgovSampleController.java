@@ -84,7 +84,7 @@ public class EgovSampleController {
 		searchVO.setPageSize(propertiesService.getInt("pageSize"));
 
 		System.out.println("깃 테스트gdgd");
-		log.debug("zzzzzzzzzzz");
+		log.debug("zzzzzzzzzz얌마!!z");
 		log.info("zzzzzzzzzzz");
 		
 		/** pageing setting */
